@@ -1,9 +1,5 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 
+def make_shirt(size='I love Python', form):
 
-print("1")
-print("2")
-print("3")
-print("4")
-pritn("5")
