@@ -2,17 +2,21 @@
 # -*- coding:utf-8 -*-
 
 
-unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
-completed_models = []
+class Dog:
+
+    def __int__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def sit(self):
+        print(self.name.title() + " is now sitting.")
+
+    def roll_over(self):
+        print(self.name.title() + " rolled over!")
 
 
-while unprinted_designs:
-    current_design = unprinted_designs.pop()
-    print('Printing model: ' + current_design)
-    completed_models.append(current_design)
+my_dog = Dog('willie', 6)
 
-print("\nThe following models have been printed:")  
-for completed_models in completed_models:
-    print(completed_models)
-    
+print("My dog's name is " + my_dog.name.title() + ".")
+print("My dog is " + str(my_dog.age) + " years old.")
 
