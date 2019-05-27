@@ -11,8 +11,8 @@ while unprinted_designs:
     print('Printing model: ' + current_design)
     completed_models.append(current_design)
 
-print("\nThe following models have been printed:")
+print("\nThe following models have been printed:")  
 for completed_models in completed_models:
     print(completed_models)
     
-[x, y]
+
